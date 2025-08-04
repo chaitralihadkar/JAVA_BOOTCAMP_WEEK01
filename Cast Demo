@@ -1,0 +1,14 @@
+public class CastDemo
+{
+        public static void main(String[] args)
+        {
+            int a = 7;
+            int b = 2;
+
+            System.out.println("a/b as integer: " + a/b);
+            System.out.println("a/b as float: "+(float)a/b);
+            System.out.println("(byte)(a+b):"+(byte)a+b);
+
+        }
+
+}
