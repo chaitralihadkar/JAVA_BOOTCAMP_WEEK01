@@ -1,0 +1,29 @@
+public class PrimitiveDemo
+    {
+        public static void main(String[] args)
+        {
+            int i = 3 ;
+            System.out.println("This is a variable of type 'integer':"+ i);
+
+            float f = 3.7f;
+            System.out.println("This is a variable of type 'float':"+ f);
+
+            double d = 1267.89;
+            System.out.println("This is a variable of type 'double':"+ d);
+
+            short s = 32766;
+            System.out.println("This is a variable of type 'short':"+ s);
+
+            long l = 90L;
+            System.out.println("This is a variable of type 'long':"+ l);
+
+            char c = 'c';
+            System.out.println("This is a variable of type 'char':"+ c);
+
+            boolean b = 3<7;
+            System.out.println("This is a variable of type 'boolean':"+ b);
+
+            byte bt = 127;
+            System.out.println("This is a variable of type 'byte':"+ bt);
+        }
+}
