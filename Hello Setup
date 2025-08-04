@@ -1,0 +1,21 @@
+public class HelloSetup
+{
+    public static void main(String[] args)
+    {
+        System.out.println("Java Version : "+System.getProperty("java.version"));
+        System.out.println("Java_Home : "+System.getenv("JAVA_HOME"));
+
+        String name;
+
+        if(args.length>0)
+        {
+            name = args[0];
+        }
+        else
+        {
+            name ="Guest";
+        }
+
+        System.out.println("\nHello, "+name+"! Welcome to Java 24!");
+    }
+}
