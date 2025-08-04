@@ -1,0 +1,45 @@
+public class OperatorDemo
+{
+        public static void main(String[] args)
+        {
+            int a = 9;
+            int b = 2;
+
+            System.out.println(" a = 9 \n b = 2\n");
+
+            System.out.println("1.Arithmetic operators (+,-,*,/,%) :");
+
+            System.out.println("Addition:"+ (a+b));
+            System.out.println("Subtraction:"+(a-b));
+            System.out.println("Multiplication:"+(a*b));
+            System.out.println("Division:"+ (a/b));
+            System.out.println("Modulus:"+(a%b));
+
+            System.out.println("\n2.Relational operators (<,>,<=,>=,==,!=):");
+            System.out.println("a>b:"+(a>b));
+            System.out.println("a<b:"+ (a<b));
+            System.out.println("a>=b:"+(a>=b));
+            System.out.println("a<=b:"+(a<=b));
+            System.out.println("a==b:"+ (a==b));
+            System.out.println("a!=b :"+(a!=b));
+
+            int c= 4;
+            int d = 3;
+
+            System.out.println("\n c = 4 \n d = 3");
+
+            System.out.println("\n3.Logical operators (&&,||,!) :");
+            System.out.println("Logical AND:"+(a>b&&c<d));
+            System.out.println("logical OR:"+ (a<b||c<d));
+            System.out.println("Logical NOT:"+!(c<d));
+
+            System.out.println("\n4.Ternary operator (max=a>b?a:b) :");
+
+            int max = 0;
+
+            max=a>b?a:b;
+
+            System.out.println("Ternary result:"+ max);
+
+        }
+}
